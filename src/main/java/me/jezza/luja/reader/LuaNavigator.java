@@ -226,8 +226,6 @@ public class LuaNavigator {
 				return "PERIOD";
 			case ElementTypes.HASH:
 				return "HASH";
-			case ElementTypes.EOL:
-				return "EOL";
 			//
 			case ElementTypes.EQUAL:
 				return "EQUAL";

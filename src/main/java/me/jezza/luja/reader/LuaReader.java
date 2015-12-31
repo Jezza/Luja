@@ -115,9 +115,6 @@ public class LuaReader {
 				case '#':
 					setElementData(elementIndex++, HASH, position);
 					break;
-				case '\n':
-					setElementData(elementIndex++, EOL, position);
-					break;
 				//
 				case '=':
 					setElementData(elementIndex++, EQUAL, position);

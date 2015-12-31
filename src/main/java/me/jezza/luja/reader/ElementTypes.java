@@ -27,7 +27,6 @@ public enum ElementTypes {
 	public static final byte COMMA = 23; // ,
 	public static final byte PERIOD = 24; // .
 	public static final byte HASH = 25; // #
-	public static final byte EOL = 26; // \n
 
 	// Operators
 	public static final byte EQUAL = 30; // =
